@@ -1,11 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Board</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
-<body>
+
+<body class="poppins-font">
+    <header class="bg-slate-100 m-10 rounded-xl">
+        <nav class="">
+            <div class="flex justify-between items-center">
+                <div class="flex">
+                    <img class="p-5" src="assets/logo.png" alt="">
+                    <h3 class="text-2xl pt-7">Dev<span class="font-bold">Board</span></h3>
+
+                </div>
+                <div class="flex bg-slate-200 rounded-full ml-350">
+                    <img class="p-5" src="assets/checkbox.png" alt="">
+                    <h3 class="text-2xl font-bold pt-5 pr-3">23</h3>
+
+                </div>
+                <img class="mr-10" src="assets/theme-btn.png" alt="">
+                
+            </div>
+            
+
+        </nav>
+
+    </header>
+
+    <main class="grid grid-cols-2">
+        <section class="bg-slate-100 mt-10 ml-10 rounded-xl w-[1250px] h-[960px] ">
+            
+                <div class="grid grid-cols-3 ">
+                    <div class=" flex bg-slate-300 mt-10 ml-5  rounded-lg w-[230px]">
+                            <img class=" px-5 py-13  " src="assets/checkbox.png" alt="">
+                        <div class="pt-9">
+                            <p class="text-lg">Task Assigned</p>
+                            <h3 class="font-bold text-2xl">05</h3>
+                        </div>
+        
+                    </div>
+        
+                    
+                        <div class="flex mt-10 rounded-lg bg-gradient-to-r from-blue-500 to-indigo-400 w-[500px]">
+                            <img class="p-5 " src="assets/board.png" alt="">
+                            <h3 class="p-10 text-white text-lg">Discover Something New Today!</h3>
+                        </div>
+                    
+        
+                    <div class="flex bg-slate-300 mt-10  rounded-lg w-[230px]">
+                            <img class=" px-5 py-13 " src="assets/calender.png" alt="">
+                        <div class="pt-9">
+                           <p class="text-xl">Wed ,</p>
+                           <h3 class="font-semibold text-xl">March 02 2025</h3>
+                        </div>
     
+                    </div>
+                    
+        
+                </div>
+
+
+                <div class="grid grid-cols-3 mt-10 ">
+                    <div class="card bg-slate-300 w-[350px] h-[315px] shadow-sm ml-5">
+                        <div class="card-body">
+                          <h2 class="bg-white w-[114px] h-[40px] text-md p-2 rounded-md">ShopEase</h2>
+                          <h3 class="text-2xl font-normal">Fix Mobile Button Issue</h3>
+                          <p class="bg-white rounded-lg p-5">A card component has a figure, a body part, and inside body there are title and actions parts</p>  
+                            <div class="card-actions justify-between">
+                                <div class="py-1">
+                                    <p>Deadline</p>
+                                    <h3 class="font-medium">21 March 2025</h3>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                              </div>
+                        </div>
+                      </div>
+
+                      <div class="card bg-slate-300 w-[350px] h-[315px] shadow-sm ml-5">
+                        <div class="card-body">
+                          <h2 class="bg-white w-[114px] h-[40px] text-md p-2 rounded-md">CloudSync</h2>
+                          <h3 class="text-2xl font-normal">Add Dark Mode</h3>
+                          <p class="bg-white rounded-lg p-5">A card component has a figure, a body part, and inside body there are title and actions parts</p>  
+                            <div class="card-actions justify-between">
+                                <div class="py-1">
+                                    <p>Deadline</p>
+                                    <h3 class="font-medium">21 March 2025</h3>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                              </div>
+                        </div>
+                      </div>
+
+                      <div class="card bg-slate-300 w-[350px] h-[315px] shadow-sm ml-5">
+                        <div class="card-body">
+                          <h2 class="bg-white w-[114px] h-[40px] text-md p-2 rounded-md">SwiftPay</h2>
+                          <h3 class="text-2xl font-normal">Optimize  Home page </h3>
+                          <p class="bg-white rounded-lg p-5">A card component has a figure, a body part, and inside body there are title and actions parts</p>  
+                            <div class="card-actions justify-between">
+                                <div class="py-1">
+                                    <p>Deadline</p>
+                                    <h3 class="font-medium">21 March 2025</h3>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                              </div>
+                        </div>
+                      </div>
+
+                      <div class="card bg-slate-300 w-[350px] h-[315px] shadow-sm ml-5  mt-5">
+                        <div class="card-body">
+                          <h2 class="bg-white w-[74px] h-[40px] text-md p-3 rounded-md">Meta</h2>
+                          <h3 class="text-2xl font-normal">Add new emoji 🤲</h3>
+                          <p class="bg-white rounded-lg p-5">A card component has a figure, a body part, and inside body there are title and actions parts</p>  
+                            <div class="card-actions justify-between">
+                                <div class="py-1">
+                                    <p>Deadline</p>
+                                    <h3 class="font-medium">21 March 2025</h3>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                              </div>
+                        </div>
+                      </div>
+
+                      <div class="card bg-slate-300 w-[350px] h-[315px] shadow-sm ml-5  mt-5">
+                        <div class="card-body">
+                          <h2 class="bg-white w-[114px] h-[40px] text-md p-2 rounded-md">Google LLC</h2>
+                          <h3 class="text-2xl font-normal">Integrate OpenAI API</h3>
+                          <p class="bg-white rounded-lg p-5">A card component has a figure, a body part, and inside body there are title and actions parts</p>  
+                            <div class="card-actions justify-between">
+                                <div class="py-1">
+                                    <p>Deadline</p>
+                                    <h3 class="font-medium">21 March 2025</h3>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                              </div>
+                        </div>
+                      </div>
+
+                      <div class="card bg-slate-300 w-[350px] h-[315px] shadow-sm ml-5 mt-5">
+                        <div class="card-body">
+                          <h2 class="bg-white w-[114px] h-[40px] text-md p-2 rounded-md">Glassdoar</h2>
+                          <h3 class="text-2xl font-normal">Improve Job searching</h3>
+                          <p class="bg-white rounded-lg p-5">A card component has a figure, a body part, and inside body there are title and actions parts</p>  
+                            <div class="card-actions justify-between">
+                                <div class="py-1">
+                                    <p>Deadline</p>
+                                    <h3 class="font-medium">21 March 2025</h3>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                              </div>
+                        </div>
+                      </div>
+
+                      
+
+                </div>
+
+
+               
+
+        
+
+
+            
+            
+    
+        </section>
+
+       
+    </main>
+
 </body>
+
 </html>
