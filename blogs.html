@@ -4,18 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <header class="bg-slate-100 m-10 rounded-xl">
+<body class="poppins-font">
+    <header class="bg-slate-100 m-20 rounded-xl">
         <nav>
-            <div>
-                <div class="gap-200">
+            <div class="flex justify-between">
+                <div class="flex">
                     <img class="p-5" src="assets/logo.png" alt="">
                         <h3 class="text-2xl pt-7">Dev<span class="font-bold">Board</span></h3>
+                </div>
+                <div id="back-to-desk-btn" class="m-7">
+                    <button  class="btn btn-primary ml-47 w-[150px]">Back to Desk</button>
                 </div>
             </div>
         
         </nav>
     </header>
+
+    <h3 class="ml-220 text-2xl font-bold">Blogs</h3>
+
+    <main>
+        <section class="bg-slate-100 m-20 rounded-xl">
+
+            <div class="mx-10  py-10">
+                <div class="mt-5 p-5 bg-white rounded-lg">
+                    <h3>Question-1: What are the different ways to select an element in the DOM?</h3>
+                    <hr>
+                    <p class="p-5">Ans:</p>
+                </div>
+                <div class="mt-5 p-5  bg-white rounded-lg">
+                    <h3>Question-2: What is the difference between innerHTML, innerText, and textContent ?</h3>
+                    <hr>
+                    <p class="p-5">Ans:</p>
+                </div>
+                <div class="mt-5 p-5  bg-white rounded-lg">
+                    <h3>Question-3: What is event delegation in the DOM?</h3>
+                    <hr>
+                    <p class="p-5">Ans:</p>
+                </div>
+                <div class="mt-5 p-5  bg-white rounded-lg">
+                    <h3>Question-4: What is event bubbling in the DOM?</h3>
+                    <hr>
+                    <p class="p-5">Ans:</p>
+                </div>
+                <div class="mt-5 p-5  bg-white rounded-lg">
+                    <h3>Question-5: How do you create, add, and remove elements using JavaScript?</h3>
+                    <hr>
+                    <p class="p-5">Ans:</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script/back-to-desk.js"></script>
 </body>
 </html>
