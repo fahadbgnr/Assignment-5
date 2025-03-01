@@ -11,16 +11,19 @@ document.getElementsByClassName('btn-primary')[0].addEventListener('click', func
 
     const Sum = 6 - 1;
     document.getElementById('odd-items').innerText = Sum;
+    const buttons = document.querySelectorAll(".btn-1");
+    buttons.forEach(button => button.disabled = true);
 
     
-   
+    
+
     
    }
    else{
     alert('thik nai')
    }
 
-   
+
 
 })
 
@@ -38,6 +41,8 @@ document.getElementsByClassName('btn-primary')[1].addEventListener('click', func
 
     const Sum = 5 - 1;
     document.getElementById('odd-items').innerText = Sum;
+    const buttons = document.querySelectorAll(".btn-2");
+    buttons.forEach(button => button.disabled = true);
     
    }
    else{
@@ -60,6 +65,8 @@ document.getElementsByClassName('btn-primary')[2].addEventListener('click', func
 
     const Sum = 4 - 1;
     document.getElementById('odd-items').innerText = Sum;
+    const buttons = document.querySelectorAll(".btn-3");
+    buttons.forEach(button => button.disabled = true);
     
    }
    else{
@@ -82,6 +89,8 @@ document.getElementsByClassName('btn-primary')[3].addEventListener('click', func
 
     const Sum = 3 - 1;
     document.getElementById('odd-items').innerText = Sum;
+    const buttons = document.querySelectorAll(".btn-4");
+    buttons.forEach(button => button.disabled = true);
     
    }
    else{
@@ -104,7 +113,8 @@ document.getElementsByClassName('btn-primary')[4].addEventListener('click', func
 
     const Sum = 2 - 1;
     document.getElementById('odd-items').innerText = Sum;
-    disabled="true";
+    const buttons = document.querySelectorAll(".btn-5");
+    buttons.forEach(button => button.disabled = true);
     
    }
    else{
@@ -128,6 +138,8 @@ document.getElementsByClassName('btn-primary')[5].addEventListener('click', func
 
     const Sum = 1 - 1;
     document.getElementById('odd-items').innerText = Sum;
+    const buttons = document.querySelectorAll(".btn-6");
+    buttons.forEach(button => button.disabled = true);
     
    }
    else{
