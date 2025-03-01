@@ -11,6 +11,9 @@ document.getElementsByClassName('btn-primary')[0].addEventListener('click', func
 
     const Sum = 6 - 1;
     document.getElementById('odd-items').innerText = Sum;
+
+    
+   
     
    }
    else{
@@ -101,6 +104,7 @@ document.getElementsByClassName('btn-primary')[4].addEventListener('click', func
 
     const Sum = 2 - 1;
     document.getElementById('odd-items').innerText = Sum;
+    disabled="true";
     
    }
    else{
@@ -118,7 +122,8 @@ document.getElementsByClassName('btn-primary')[5].addEventListener('click', func
     const convertedOddItems = parseInt(oddItems);
    if(event.target){
     alert('Improve Job searching')
-    const sum = 29 + 1 ;
+    alert('Congrates!!! you have complete all the current task')
+    const sum = 28 + 1 ;
     document.getElementById('plus-items').innerText=sum;
 
     const Sum = 1 - 1;
